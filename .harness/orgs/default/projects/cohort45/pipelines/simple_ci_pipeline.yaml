@@ -26,7 +26,7 @@ pipeline:
           infrastructure:
             type: KubernetesDirect
             spec:
-              connectorRef: victoria_build_farm_connector
+              connectorRef: russell_build_farm_connector
               namespace: harness-delegate-ng
               automountServiceAccountToken: true
               nodeSelector: {}
